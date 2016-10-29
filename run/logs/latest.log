@@ -1,0 +1,75 @@
+[12:32:45] [Client thread/INFO]: Setting user: Player375
+[12:33:08] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:33:08] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:33:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Outcasts Land, FMLFileResourcePack:LLibrary
+[12:33:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:33:52] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[12:33:52] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:34:02] [Thread-8/INFO]: OpenAL initialized.
+[12:34:02] [Sound Library Loader/INFO]: Sound engine started
+[12:34:10] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:34:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Outcasts Land, FMLFileResourcePack:LLibrary
+[12:34:27] [Client thread/INFO]: SoundSystem shutting down...
+[12:34:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:34:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:34:27] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[12:34:27] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:34:31] [Thread-11/INFO]: OpenAL initialized.
+[12:34:31] [Sound Library Loader/INFO]: Sound engine started
+[12:34:45] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[12:34:51] [Client thread/WARN]: Skipping bad option: lastServer:
+[12:34:59] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[12:35:07] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[12:35:07] [Server thread/INFO]: Generating keypair
+[12:35:09] [Server thread/INFO]: Preparing start region for level 0
+[12:35:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:35:12] [Server thread/INFO]: Preparing spawn area: 8%
+[12:35:13] [Server thread/INFO]: Preparing spawn area: 47%
+[12:35:14] [Server thread/INFO]: Preparing spawn area: 77%
+[12:35:15] [Server thread/INFO]: Changing view distance to 6, from 10
+[12:35:19] [Server thread/INFO]: Player375[local:E:476b5790] logged in with entity id 329 at (135.52908828073151, 139.0, 253.05496136611816)
+[12:35:19] [Server thread/INFO]: Player375 joined the game
+[12:35:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2156ms behind, skipping 43 tick(s)
+[12:35:27] [Server thread/INFO]: Saving and pausing game...
+[12:35:27] [Server thread/INFO]: Saving chunks for level 'meme'/Overworld
+[12:35:28] [Server thread/INFO]: Saving chunks for level 'meme'/Nether
+[12:35:28] [Server thread/INFO]: Saving chunks for level 'meme'/The End
+[12:35:30] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7325c099[id=3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1,name=Player375,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3060) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:131) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_111]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[12:35:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2226ms behind, skipping 44 tick(s)
+[12:35:54] [Server thread/INFO]: Saving and pausing game...
+[12:35:54] [Server thread/INFO]: Saving chunks for level 'meme'/Overworld
+[12:35:55] [Server thread/INFO]: Saving chunks for level 'meme'/Nether
+[12:35:55] [Server thread/INFO]: Saving chunks for level 'meme'/The End
+[12:38:22] [Client thread/INFO]: Stopping!
+[12:38:23] [Client thread/INFO]: SoundSystem shutting down...
+[12:38:24] [Server thread/INFO]: Stopping server
+[12:38:24] [Server thread/INFO]: Saving players
+[12:38:24] [Server thread/INFO]: Saving worlds
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'meme'/Overworld
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'meme'/Nether
+[12:38:24] [Server thread/INFO]: Saving chunks for level 'meme'/The End
+[12:38:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:38:25] [Client Shutdown Thread/INFO]: Stopping server
+[12:38:25] [Client Shutdown Thread/INFO]: Saving players
+[12:38:25] [Client Shutdown Thread/INFO]: Saving worlds

@@ -1,0 +1,37 @@
+package mchetvorkata.theoutcastsland.init;
+
+import scala.actors.threadpool.helpers.Utils;
+import mchetvorkata.theoutcastsland.Reference;
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class TOCLily {
+	
+	public static void init () {
+		
+	}
+	
+	public static void register () {
+		
+	}
+	
+	public static void registerRenders () {
+		
+	}
+	
+	public static void registerBlock(Block block) {
+		GameRegistry.register(block);
+		Utils.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
+		
+	}
+	
+	public static void registerRender(Block block) {
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.MOD_ID, block.getUnlocalizedName().substring(5)), "inventory"));
+		
+	}
+
+}

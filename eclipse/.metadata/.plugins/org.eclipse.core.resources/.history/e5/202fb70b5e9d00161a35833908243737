@@ -1,0 +1,18 @@
+package mchetvorkata.theoutcastsland.blocks;
+
+import mchetvorkata.theoutcastsland.Reference;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.util.ResourceLocation;
+
+public class BlockLily extends Block {
+
+	public BlockLily(String unlocalizedName, String registryName) {
+		super(Material.PLANTS);
+		this.setUnlocalizedName(getUnlocalizedName());
+		this.setRegistryName(new ResourceLocation(Reference.MOD_ID, registryName()));
+		
+		
+	}
+
+}

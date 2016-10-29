@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.entity.ai.EntityAIAttackMelee"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.ai.EntityAILookIdle"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.entity.hostile.EntityXurah"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.init.TOLlily"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraftforge.client.model.ModelLoader"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.block.model.ModelResourceLocation"/>
+<fullyQualifiedTypeName name="com.ibm.icu.impl.duration.impl.Utils"/>
+<fullyQualifiedTypeName name="scala.actors.threadpool.helpers.Utils"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.init.TOCLily"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.Reference"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.Reference.TOCBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+</qualifiedTypeNameHistroy>

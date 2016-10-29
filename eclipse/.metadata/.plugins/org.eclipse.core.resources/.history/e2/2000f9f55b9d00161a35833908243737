@@ -1,0 +1,12 @@
+package mchetvorkata.theoutcastsland.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockLily extends Block {
+
+	public BlockLily() {
+		super(Material.PLANTS);
+	}
+
+}

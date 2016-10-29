@@ -1,0 +1,27 @@
+{
+  "C:\\Users\\Val3\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.10.2-12.18.2.2099\\snapshot\\20160518\\forgeSrc-1.10.2-12.18.2.2099.jar": {
+    "location": "C:\\Users\\Val3\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.10.2-12.18.2.2099\\snapshot\\20160518\\forgeSrc-1.10.2-12.18.2.2099.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Val3\\.gradle\\caches\\minecraft\\net\\minecraftforge\\forge\\1.10.2-12.18.2.2099\\snapshot\\20160518\\forgeSrc-1.10.2-12.18.2.2099.jar\u0027. Neither fingerprint \u00271cd8ff377b3004189b6ea2a6d5121a62e008f1d6\u0027 nor symbolic name \u0027forgeSrc-1.10.2-12.18.2.2099\u0027 are known."
+  },
+  "C:\\Program Files\\Java\\jdk1.8.0_111\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_111\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j-core-mojang\\51.2\\63d216a9311cca6be337c1e458e587f99d382b84\\icu4j-core-mojang-51.2.jar": {
+    "location": "C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j-core-mojang\\51.2\\63d216a9311cca6be337c1e458e587f99d382b84\\icu4j-core-mojang-51.2.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j-core-mojang\\51.2\\63d216a9311cca6be337c1e458e587f99d382b84\\icu4j-core-mojang-51.2.jar\u0027. Neither fingerprint \u002763d216a9311cca6be337c1e458e587f99d382b84\u0027 nor symbolic name \u0027com.ibm.icu.core\u0027 are known."
+  },
+  "C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-actors\\2.11.0\\8ccfb6541de179bb1c4d45cf414acee069b7f78b\\scala-actors-2.11.0.jar": {
+    "location": "C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-actors\\2.11.0\\8ccfb6541de179bb1c4d45cf414acee069b7f78b\\scala-actors-2.11.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\Val3\\.gradle\\caches\\modules-2\\files-2.1\\org.scala-lang\\scala-actors\\2.11.0\\8ccfb6541de179bb1c4d45cf414acee069b7f78b\\scala-actors-2.11.0.jar\u0027. Neither fingerprint \u00278ccfb6541de179bb1c4d45cf414acee069b7f78b\u0027 nor symbolic name \u0027org.scala-lang.scala-actors\u0027 are known."
+  },
+  "C:\\Users\\Val3\\Desktop\\Forge 1.10.2\\src\\main\\java": {
+    "location": "C:\\Users\\Val3\\Desktop\\Forge 1.10.2\\src\\main\\java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Val3\\Desktop\\Forge 1.10.2\\src\\main\\java\u0027. Skipped."
+  }
+}
