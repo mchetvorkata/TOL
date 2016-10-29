@@ -1,6 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+        "particle": "blocks/waterlily",
         "0": "blocks/lily",
         "1": "blocks/Untitle99d",
         "2": "blocks/3PLS",

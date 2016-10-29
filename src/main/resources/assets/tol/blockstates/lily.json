@@ -1,0 +1,9 @@
+{ "forge_maker": 1,
+    "defaults": {
+        "model" : "tol:lily"
+},
+          "variants": {
+              "normal": [{}],
+              "inventory": [{}] 
+     }
+  }
