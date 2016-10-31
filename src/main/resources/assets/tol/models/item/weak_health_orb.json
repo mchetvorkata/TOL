@@ -2,7 +2,7 @@
     "parent": "builtin/generated",
     "textures": {
         "layer0": "tol:items/weak_health_orb"
-    },
+ },
     "display": {
         "thirdperson": {
             "rotation": [ -90, 0, 0 ],

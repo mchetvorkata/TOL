@@ -2,11 +2,8 @@ package mchetvorkata.theoutcastsland;
 
 
 import mchetvorkata.theoutcastsland.init.ModEntities;
-import mchetvorkata.theoutcastsland.init.TOCBlock2;
-import mchetvorkata.theoutcastsland.init.TOCBlock3;
 import mchetvorkata.theoutcastsland.init.TOCBlocks;
 import mchetvorkata.theoutcastsland.init.TOCItems;
-import mchetvorkata.theoutcastsland.init.TOCLily;
 import mchetvorkata.theoutcastsland.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -35,6 +32,7 @@ public class TheOutcastsLand {
 	@EventHandler
     public void init(FMLInitializationEvent event)
     {
+		proxy.init();
     	proxy.registerRenders();
     	proxy.registerEntityRenders();
     	ModEntities.generateSpawnEgg();
@@ -42,14 +40,8 @@ public class TheOutcastsLand {
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-		TOCLily.init();
-		TOCLily.register();
 		TOCBlocks.init();
 		TOCBlocks.register();
-		TOCBlock2.init();
-		TOCBlock2.register();
-		TOCBlock3.init();
-		TOCBlock3.register();
 		TOCItems.init();
 		TOCItems.register();	
 		ModEntities.registerEntities();
