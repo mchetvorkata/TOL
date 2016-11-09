@@ -5,6 +5,7 @@ import mchetvorkata.theoutcastsland.TheOutcastsLand;
 import mchetvorkata.theoutcastsland.init.blocks.lily;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -50,6 +51,11 @@ public class TOCBlocks {
 	{
 		Item item = Item.getItemFromBlock(block);
 				Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new net.minecraft.client.renderer.block.model.ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+	}
+
+
+	public static IBlockState getDefaultState() {
+		return getDefaultState();
 	}
 
 }

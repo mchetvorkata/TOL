@@ -2,10 +2,15 @@ package mchetvorkata.theoutcastsland.init.blocks;
 
 import java.util.List;
 
+import mchetvorkata.theoutcastsland.TheOutcastsLand;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBush;
+import net.minecraft.block.BlockLiquid;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityBoat;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -14,7 +19,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class lily extends Block {
+public class lily extends BlockBush {
 	
 	private static final AxisAlignedBB LILY_PAD_AABB = new AxisAlignedBB(0.0625D, 0.0D, 0.0625D, 0.9375D, 0.09375D, 0.9375D);
 	
@@ -49,6 +54,46 @@ public class lily extends Block {
 	@Override
 	public void addCollisionBoxToList(IBlockState state, World worldIn, BlockPos pos, AxisAlignedBB entityBox, List<AxisAlignedBB> collidingBoxes, Entity entityIn) {
 		super.addCollisionBoxToList(pos, entityBox, collidingBoxes, LILY_PAD_AABB);
+			if (!(entityIn instanceof EntityBoat)) {
+            addCollisionBoxToList(pos, entityBox, collidingBoxes, LILY_PAD_AABB);
+        }
 	}
+	
+	/**
+     * Called When an Entity Collided with the Block
+     */
+	
+	public void onEntityCollidedWithBlock(World worldIn, BlockPos pos, IBlockState state, Entity entityIn) {
+        super.onEntityCollidedWithBlock(worldIn, pos, state, entityIn);
+
+        	if (entityIn instanceof EntityBoat) {
+            worldIn.destroyBlock(new BlockPos(pos), true);
+        }
+    }
+	
+	/**
+     * Return true if the block can sustain a Bush
+     */
+	
+	protected boolean canSustainBush(IBlockState state) {
+        return state.getBlock() == Blocks.WATER || state.getMaterial() == Material.ICE;
+    }
+
+    public boolean canBlockStay(World worldIn, BlockPos pos, IBlockState state) {
+        if (pos.getY() >= 0 && pos.getY() < 256) {
+            IBlockState iblockstate = worldIn.getBlockState(pos.down());
+            
+            	Material material = iblockstate.getMaterial();
+            return material == Material.WATER && ((Integer)iblockstate.getValue(BlockLiquid.LEVEL)).intValue() == 0 || material == Material.ICE;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    public int getMetaFromState(IBlockState state) {
+        return 0;
+    }
 
 }

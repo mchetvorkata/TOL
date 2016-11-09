@@ -1,0 +1,165 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "src\main\resources\assets\tol\textures\blocks/paddown",
+        "0": "src\main\resources\assets\tol\textures\blocks/padd",
+        "1": "src\main\resources\assets\tol\textures\blocks/paddown",
+        "2": "src\main\resources\assets\tol\textures\blocks/Untitle99d",
+        "3": "src/main/resources/assets/tol/textures/blocks/3PLS",
+        "4": "src/main/resources/assets/tol/textures/blocks/Untitle77d",
+        "5": "src/main/resources/assets/tol/textures/blocks/Unti55tled",
+        "6": "src/main/resources/assets/tol/textures/blocks/Untitle858d",
+        "7": "src/main/resources/assets/tol/textures/blocks/Untitl34ed",
+        "8": "src/main/resources/assets/tol/textures/blocks/Untitle88d",
+        "9": "src/main/resources/assets/tol/textures/blocks/Untitle3d",
+        "10": "src/main/resources/assets/tol/textures/blocks/HELPPLS",
+        "11": "src/main/resources/assets/tol/textures/blocks/PLS",
+        "12": "src/main/resources/assets/tol/textures/blocks/Untitled",
+        "13": "src/main/resources/assets/tol/textures/blocks/Killme",
+        "14": "src/main/resources/assets/tol/textures/blocks/HELP",
+        "15": "src/main/resources/assets/tol/textures/blocks/1PLS",
+        "16": "src/main/resources/assets/tol/textures/blocks/16n",
+        "17": "src/main/resources/assets/tol/textures/blocks/mi",
+        "19": "src/main/resources/assets/tol/textures/blocks/mid"
+    },
+    "elements": [
+        {
+            "name": "Pad",
+            "from": [ 1.0, 0.0, 1.0 ], 
+            "to": [ 15.0, 0.0, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#-1", "uv": [ 0.0, 7.0, 14.0, 8.0 ] },
+                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 1.0, 1.0, 15.0, 15.0 ] },
+                "down": { "texture": "#1", "uv": [ 1.0, 1.0, 15.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "LeafR",
+            "from": [ 6.0, -1.0, 6.0 ], 
+            "to": [ 10.0, 0.0, 10.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#3", "uv": [ 0.0, 1.0, 4.0, 2.0 ] },
+                "south": { "texture": "#4", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up": { "texture": "#6", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#6", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "LeafL",
+            "from": [ 6.0, -1.0, 6.0 ], 
+            "to": [ 10.0, 0.0, 10.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#7", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 2.0, 4.0, 3.0 ] },
+                "up": { "texture": "#8", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#8", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "LeafF",
+            "from": [ 6.0, -1.0, 6.0 ], 
+            "to": [ 10.0, 0.0, 10.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 6.0, 13.0 ] },
+                "south": { "texture": "#9", "uv": [ 2.0, 4.0, 6.0, 5.0 ] },
+                "west": { "texture": "#4", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#7", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "LeafB",
+            "from": [ 6.0, -1.0, 6.0 ], 
+            "to": [ 10.0, 0.0, 10.0 ], 
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#7", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#4", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up": { "texture": "#7", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "down": { "texture": "#5", "uv": [ 0.0, 0.0, 4.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "InsideLeafL",
+            "from": [ 2.0, 3.0, 7.0 ], 
+            "to": [ 5.0, 4.0, 9.0 ], 
+            "rotation": { "origin": [ 1.0, 0.0, 5.0 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#10", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "south": { "texture": "#11", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "west": { "texture": "#3", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+                "up": { "texture": "#9", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+                "down": { "texture": "#9", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "InsideLeafR",
+            "from": [ 7.0, -6.0, 7.0 ], 
+            "to": [ 10.0, -5.0, 9.0 ], 
+            "rotation": { "origin": [ 2.0, 0.0, 6.0 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#11", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "east": { "texture": "#3", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+                "south": { "texture": "#10", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "up": { "texture": "#12", "uv": [ 0.0, 0.0, 3.0, 2.0 ] },
+                "down": { "texture": "#12", "uv": [ 0.0, 0.0, 3.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "InsideLeafF",
+            "from": [ 7.0, -4.0, 8.0 ], 
+            "to": [ 9.0, -3.0, 11.0 ], 
+            "rotation": { "origin": [ 1.0, 0.0, 5.0 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "east": { "texture": "#11", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "south": { "texture": "#3", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+                "west": { "texture": "#10", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "up": { "texture": "#13", "uv": [ 0.0, 0.0, 2.0, 3.0 ] },
+                "down": { "texture": "#14", "uv": [ 0.0, 0.0, 2.0, 3.0 ] }
+            }
+        },
+        {
+            "name": "InsideLeafB",
+            "from": [ 7.0, 0.0, 3.0 ], 
+            "to": [ 9.0, 1.0, 6.0 ], 
+            "rotation": { "origin": [ 1.0, 0.0, 5.0 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#3", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+                "east": { "texture": "#11", "uv": [ 3.0, 1.0, 0.0, 0.0 ] },
+                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 1.0, 3.0, 0.0 ] },
+                "up": { "texture": "#14", "uv": [ 0.0, 0.0, 2.0, 3.0 ] },
+                "down": { "texture": "#15", "uv": [ 0.0, 0.0, 2.0, 3.0 ] }
+            }
+        },
+        {
+            "name": "Petal",
+            "from": [ 7.0, 0.0, 7.0 ], 
+            "to": [ 9.0, 1.0, 9.0 ], 
+            "faces": {
+                "north": { "texture": "#16", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "east": { "texture": "#17", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "south": { "texture": "#18", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "west": { "texture": "#17", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "up": { "texture": "#19", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "down": { "texture": "#18", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+            }
+        }
+    ]
+}

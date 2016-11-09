@@ -1,0 +1,37 @@
+package mchetvorkata.theoutcastsland.init;
+
+import mchetvorkata.theoutcastsland.Reference;
+import mchetvorkata.theoutcastsland.TheOutcastsLand;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class TOCItems {
+	
+	public static Item weak_health_orb;
+	public static Item lily;
+	
+	public static void init() {
+		weak_health_orb = new Item ().setUnlocalizedName("weak_health_orb");
+		lily = new Item ().setUnlocalizedName("lily");
+	}
+	
+	public static void register()
+	{
+		GameRegistry.registerItem(weak_health_orb, weak_health_orb.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(lily, lily.getUnlocalizedName().substring(5));
+}
+
+	public static void registerRenders()
+{
+		registerRender(weak_health_orb);
+		registerRender(lily);
+}
+		public static void registerRender(Item item)
+		{
+			Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+		}
+}
+
+

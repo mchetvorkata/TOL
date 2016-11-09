@@ -1,0 +1,7 @@
+package mchetvorkata.theoutcastsland.init.blocks;
+
+import net.minecraft.block.Block;
+
+public class lily extends Block {
+
+}

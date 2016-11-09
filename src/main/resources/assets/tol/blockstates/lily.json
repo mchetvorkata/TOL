@@ -1,9 +1,10 @@
-{ "forge_maker": 1,
-"defaults": {
-    "model": "tol:block/lily"
-},
-"variants": {
-    "normal": [{}],
-    "inventory" [{}]
+{
+    "variants": {
+        "normal": [
+        { "model": "tol:lily" },
+        { "model": "tol:lily", "y": 90},
+        { "model": "tol:lily", "y": 180},
+        { "model": "tol:lily", "y": 270}
+        ]
     }
 }
