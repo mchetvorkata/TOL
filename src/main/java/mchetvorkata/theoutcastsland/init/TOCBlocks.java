@@ -53,9 +53,4 @@ public class TOCBlocks {
 				Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new net.minecraft.client.renderer.block.model.ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
 
-
-	public static IBlockState getDefaultState() {
-		return getDefaultState();
-	}
-
 }

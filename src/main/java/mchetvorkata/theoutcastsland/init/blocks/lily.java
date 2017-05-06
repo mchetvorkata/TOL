@@ -3,6 +3,7 @@ package mchetvorkata.theoutcastsland.init.blocks;
 import java.util.List;
 
 import mchetvorkata.theoutcastsland.TheOutcastsLand;
+import mchetvorkata.theoutcastsland.item.ItemLilyFlower;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockLiquid;
@@ -27,7 +28,7 @@ public class lily extends BlockBush {
 		super(Material.VINE);
 		setRegistryName("lily");
 		GameRegistry.register(this);
-		GameRegistry.register(new ItemBlock(this), getRegistryName());
+		GameRegistry.register(new ItemLilyFlower(this), getRegistryName());
 		
 	}
 	

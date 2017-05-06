@@ -43,6 +43,7 @@ public class ItemLilyFlower extends ItemColored
                 {
                     return new ActionResult(EnumActionResult.FAIL, itemStackIn);
                 }
+                
 
                 BlockPos blockpos1 = blockpos.up();
                 IBlockState iblockstate = worldIn.getBlockState(blockpos);
@@ -51,14 +52,14 @@ public class ItemLilyFlower extends ItemColored
                 {
                     // special case for handling block placement with water lilies
                     net.minecraftforge.common.util.BlockSnapshot blocksnapshot = net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(worldIn, blockpos1);
-                    worldIn.setBlockState(blockpos1, mchetvorkata.theoutcastsland.init.TOCBlocks.getDefaultState());
+                    worldIn.setBlockState(blockpos1, mchetvorkata.theoutcastsland.init.TOCBlocks.lily.getDefaultState());
                     if (net.minecraftforge.event.ForgeEventFactory.onPlayerBlockPlace(playerIn, blocksnapshot, net.minecraft.util.EnumFacing.UP).isCanceled())
                     {
                         blocksnapshot.restore(true, false);
                         return new ActionResult<ItemStack>(EnumActionResult.FAIL, itemStackIn);
                     }
 
-                    worldIn.setBlockState(blockpos1, mchetvorkata.theoutcastsland.init.TOCBlocks.getDefaultState(), 11);
+                    worldIn.setBlockState(blockpos1, mchetvorkata.theoutcastsland.init.TOCBlocks.lily.getDefaultState(), 11);
 
                     if (!playerIn.capabilities.isCreativeMode)
                     {
